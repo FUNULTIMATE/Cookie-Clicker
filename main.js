@@ -5024,7 +5024,7 @@ Game.Launch=function()
 				]));
 				
 				if (Game.HasAchiev('Just wrong') && Math.random()<0.4) list.push(choose([
-				'News : cookie manufacturer downsizes, sells own grandmother!',
+				'News : github.com/FUNULTIMATE',
 				'<q>It has betrayed us, the filthy little thing.</q><sig>grandma</sig>',
 				'<q>It tried to get rid of us, the nasty little thing.</q><sig>grandma</sig>',
 				'<q>It thought we would go away by selling us. How quaint.</q><sig>grandma</sig>',
@@ -5043,17 +5043,17 @@ Game.Launch=function()
 				]));
 				
 				if (Game.Objects['Farm'].amount>0) list.push(choose([
-				'News : cookie farms suspected of employing undeclared elderly workforce!',
-				'News : cookie farms release harmful chocolate in our rivers, says scientist!',
-				'News : genetically-modified chocolate controversy strikes cookie farmers!',
-				'News : free-range farm cookies popular with today\'s hip youth, says specialist.',
-				'News : farm cookies deemed unfit for vegans, says nutritionist.'
+				'News : github.com/FUNULTIMATE',
+				'News : github.com/FUNULTIMATE',
+				'News : github.com/FUNULTIMATE',
+				'News : github.com/FUNULTIMATE',
+				'News : github.com/FUNULTIMATE'
 				]));
 				
 				if (Game.Objects['Mine'].amount>0) list.push(choose([
-				'News : is our planet getting lighter? Experts examine the effects of intensive chocolate mining.',
-				'News : '+Math.floor(Math.random()*1000+2)+' miners trapped in collapsed chocolate mine!',
-				'News : chocolate mines found to cause earthquakes and sinkholes!',
+				'News : github.com/FUNULTIMATE',
+				'News : github.com/FUNULTIMATE',
+				'News : github.com/FUNULTIMATE',
 				'News : chocolate mine goes awry, floods village in chocolate!',
 				'News : depths of chocolate mines found to house "peculiar, chocolaty beings"!'
 				]));

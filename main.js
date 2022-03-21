@@ -5052,7 +5052,7 @@ Game.Launch=function()
 				if (Game.Objects['Mine'].amount>0) list.push(choose([
 				'News : stop being poor',
 				'News : Lmao',
-				'News : have you seen mason's doc?',
+				'News : have you seen masons doc?',
 				'News : chocolate mine goes awry, floods village in chocolate!',
 				'News : depths of chocolate mines found to house "peculiar, chocolaty beings"!'
 				]));

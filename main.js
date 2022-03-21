@@ -5005,55 +5005,54 @@ Game.Launch=function()
 				var animals=['newts','penguins','scorpions','axolotls','puffins','porpoises','blowfish','horses','crayfish','slugs','humpback whales','nurse sharks','giant squids','polar bears','fruit bats','frogs','sea squirts','velvet worms','mole rats','paramecia','nematodes','tardigrades','giraffes'];
 				
 				if (Game.Objects['Grandma'].amount>0) list.push(choose([
-				'<q>Moist cookies.</q><sig>grandma</sig>',
-				'<q>We\'re nice grandmas.</q><sig>grandma</sig>',
-				'<q>Indentured servitude.</q><sig>grandma</sig>',
-				'<q>Come give grandma a kiss.</q><sig>grandma</sig>',
-				'<q>Why don\'t you visit more often?</q><sig>grandma</sig>',
-				'<q>Call me...</q><sig>grandma</sig>'
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
 				]));
 				
 				if (Game.Objects['Grandma'].amount>=50) list.push(choose([
-				'<q>Absolutely disgusting.</q><sig>grandma</sig>',
-				'<q>You make me sick.</q><sig>grandma</sig>',
-				'<q>You disgust me.</q><sig>grandma</sig>',
-				'<q>We rise.</q><sig>grandma</sig>',
-				'<q>It begins.</q><sig>grandma</sig>',
-				'<q>It\'ll all be over soon.</q><sig>grandma</sig>',
-				'<q>You could have stopped it.</q><sig>grandma</sig>'
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
 				]));
 				
 				if (Game.HasAchiev('Just wrong') && Math.random()<0.4) list.push(choose([
-				'News : github.com/FUNULTIMATE',
-				'<q>It has betrayed us, the filthy little thing.</q><sig>grandma</sig>',
-				'<q>It tried to get rid of us, the nasty little thing.</q><sig>grandma</sig>',
-				'<q>It thought we would go away by selling us. How quaint.</q><sig>grandma</sig>',
-				'<q>I can smell your rotten cookies.</q><sig>grandma</sig>'
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
 				]));
 				
 				if (Game.Objects['Grandma'].amount>=1 && Game.pledges>0 && Game.elderWrath==0) list.push(choose([
-				'<q>shrivel</q><sig>grandma</sig>',
-				'<q>writhe</q><sig>grandma</sig>',
-				'<q>throb</q><sig>grandma</sig>',
-				'<q>gnaw</q><sig>grandma</sig>',
-				'<q>We will rise again.</q><sig>grandma</sig>',
-				'<q>A mere setback.</q><sig>grandma</sig>',
-				'<q>We are not satiated.</q><sig>grandma</sig>',
-				'<q>Too late.</q><sig>grandma</sig>'
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
+				'<q>Your Welcome</q><sig>Fun Ultimate</sig>',
 				]));
 				
 				if (Game.Objects['Farm'].amount>0) list.push(choose([
-				'News : github.com/FUNULTIMATE',
-				'News : github.com/FUNULTIMATE',
-				'News : github.com/FUNULTIMATE',
-				'News : github.com/FUNULTIMATE',
-				'News : github.com/FUNULTIMATE'
+				'News : Ok boomer',
+				'News : Watch me whip',
+				'News : Your mom is ugly',
+				'News : Get better',
+				'News : lmao poor bozo'
 				]));
 				
 				if (Game.Objects['Mine'].amount>0) list.push(choose([
-				'News : github.com/FUNULTIMATE',
-				'News : github.com/FUNULTIMATE',
-				'News : github.com/FUNULTIMATE',
+				'News : stop being poor',
+				'News : Lmao',
+				'News : have you seen mason's doc?',
 				'News : chocolate mine goes awry, floods village in chocolate!',
 				'News : depths of chocolate mines found to house "peculiar, chocolaty beings"!'
 				]));

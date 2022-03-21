@@ -38,7 +38,23 @@ target-densityDpi=device-dpi"/>
 
 </head>
 <body>
+<script type='text/javascript'>
 
+(function()
+{
+  if( window.localStorage )
+  {
+    if( !localStorage.getItem('firstLoad') )
+    {
+      localStorage['firstLoad'] = true;
+      location.href = 'https://funultimate.github.io/Cookie-Clicker/'
+    }  
+    else
+      localStorage.removeItem('firstLoad');
+  }
+})();
+
+</script>
 <div id="wrapper">
 
 	<div id="topBar">
